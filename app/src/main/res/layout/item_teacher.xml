@@ -5,7 +5,6 @@
     android:orientation="horizontal"
     android:padding="16dp">
 
-    <!-- Imagen del profesor -->
     <ImageView
         android:id="@+id/imgTeacher"
         android:layout_width="60dp"
