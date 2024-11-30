@@ -32,7 +32,7 @@ class TeacherAdapter(private val teachers: List<TeacherResponse>) :
             binding.txtFullName.text = teacher.getFullName()
             binding.txtPhone.text = teacher.getPhoneNumber()
             binding.txtEmail.text = teacher.email
-
+//hola
             Glide.with(itemView.context)
                 .load(teacher.getProfileImage())
                 .into(binding.imgTeacher)
